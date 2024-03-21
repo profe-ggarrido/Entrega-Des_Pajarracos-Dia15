@@ -1,0 +1,38 @@
+.card-text-spanish {
+    text-decoration: underline;
+  }
+
+.card {
+    width: 250px;
+    height: 400px;
+    background-color: #add8e6;
+    padding: 8%; /* Agrega un padding de 5 píxeles */
+    box-sizing: border-box; /* Incluye el padding dentro del tamaño de la card */
+}
+  
+.card-body {
+    font-size: 10px; /* Establece el tamaño de fuente en 8 píxeles */
+    overflow: hidden; /* Evita que el contenido se desborde */
+    line-height: 1.0; /* Ajusta el valor según tus preferencias */
+}
+
+.col-md-4, .col-lg-3 {
+    margin-right: 14px;
+    margin-left: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.btn-primary {
+    font-size: 0.7rem; /* Reduce el tamaño del texto del botón */
+    padding: 0.25rem 0.5rem; /* Reduce el padding (espacio interno) del botón */
+}
+
+.card-img-top {
+    max-width: 80%; /* Reduce el tamaño de la imagen en un 20% */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+    display: block; /* Centra la imagen horizontalmente */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+
